@@ -1,12 +1,14 @@
 import Footer from './Components/Footer';
-import MainPage from './Components/MainPage';
+import ItemPannel from './Components/ItemPannel';
 import Navbar from './Components/Navbar';
+import Sidebar from './Components/Sidebar';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App w-full bg-black">
       <Navbar />
-      <MainPage />
+      <Sidebar />
+      <ItemPannel />
       <Footer />
     </div>
   );
